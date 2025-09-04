@@ -3,12 +3,15 @@
  */
 package ticket.booking;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
+public class App {
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        List<Integer> l=Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> l1=l.stream().filter(e->e%2==0).collect(Collectors.toList());
+        //when printed gives 2,4,6,8,10
+        //in java function are first class parameters
+        l.stream().map(e->e*2).collect(Collectors.asList());
     }
 }

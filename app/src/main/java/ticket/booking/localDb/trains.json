@@ -1,0 +1,44 @@
+[
+    {
+        "train_id":"bacs",
+                    "train_no":12345,
+                    "seats":[
+                        [1,0,0,0,0],
+                        [0,0,0,1,0],
+                        [0,0,0,0,0],
+                        [0,1,0,0,0],
+                        [0,0,0,1,0]
+                    ],
+                    "stations_times":{
+                        "Roorkee":"06:30:00",
+                        "Saharanpur": "07:50:00",
+                        "Chandigarh":"10:00:00"
+                    },
+                    "stations":[
+                        "Roorkee",
+                        "Saharanpur",
+                        "Chandigarh"
+                    ]
+    },
+    {
+        "train_id":"lkch",
+                    "train_no":12340,
+                    "seats":[
+                        [1,0,0,0,0],
+                        [0,0,0,1,0],
+                        [0,0,1,0,0],
+                        [0,1,0,0,0],
+                        [0,0,0,1,0]
+                    ],
+                    "stations_times":{
+                        "Roorkee":"10:30:00",
+                        "Saharanpur": "11:50:00",
+                        "Chandigarh":"13:10:00"
+                    },
+                    "stations":[
+                        "Roorkee",
+                        "Saharanpur",
+                        "Chandigarh"
+                    ]
+    }
+]
