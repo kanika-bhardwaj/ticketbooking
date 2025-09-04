@@ -1,0 +1,30 @@
+[
+    {
+        "user_id":"12345",
+        "name":"Kanika",
+        "hashed_password":"abc12345",
+        "tickets_booked":[
+            {
+                "source":"Roorkee",
+                "destination":"Chandigarh",
+                "date_of_travel":"2025-09-03T06:30:00Z",
+                "train":{
+                    "train_id":"bacs",
+                    "train_no":12345,
+                    "seats":[
+                        [1,0,0,0,0],
+                        [0,0,0,1,0],
+                        [0,0,0,0,0],
+                        [0,1,0,0,0],
+                        [0,0,0,1,0]
+                    ],
+                    "stations":{
+                        "Roorkee":"06:30:00",
+                        "Saharanpur": "07:50:00",
+                        "Chandigarh":"10:00:00"
+                    }
+                }
+            }
+        ]
+    }
+]
