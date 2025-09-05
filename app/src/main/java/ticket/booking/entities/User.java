@@ -3,14 +3,14 @@ import java.util.List;
 public class User{
     private String name;
     private String password;
-    private String hashPassWord;
-    private List<Ticket> ticketsbooked;
+    private String hashedPassWord;
+    private List<Ticket> ticketsBooked;
     private String userId;   
-    public user(String name,String password,String hashPassWord,List<Ticket> ticketsbooked,String userId){
+    public User(String name,String password,String hashPassWord,List<Ticket> ticketsBooked,String userId){
         this.name=name;
         this.password=password;
-        this.hashPassWord=hashPassWord;
-        this.ticketsbooked=ticketsbooked;
+        this.hashPassWord=hashedPassWord;
+        this.ticketsBooked=ticketsBooked;
         this.userId=userId;
     }
     public User(){}
